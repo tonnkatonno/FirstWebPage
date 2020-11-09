@@ -1,5 +1,5 @@
 body{
-    background-image: url("assets/background.png");
+   background-image: url("assets/background.png");
    font-family: consolas; 
    
 }
@@ -8,26 +8,30 @@ a{
 }
 
 .navigation li{
-    display: inline;
+   display: inline;
    color: #ff0099;
-   padding-right: 35px;
+   padding-right: 2em;
    text-decoration: underline;
+  
 }
 .navigation ul{
+    padding-top: 0.6em;
     text-align: end;
-    padding-right: 23px;
-    list-style-type: none;
+    padding-right: 0.5em;
+    margin: 0;
 }
 .navigation{
     background-color:#333333;
-    height: 66px;
+    height: 4em;
+    position: relative;
+    display: flex;
 }
 #lastitem{
-    padding-right: 111px;
+    padding-right: 3em;
 }
-.navigation img{
-    padding-right:900px; 
-    padding-top: 13px;
+#pics{
+    padding-left: 5.8em;
+    padding-right: 54em;
 }
 .text{
     padding: 10%;
